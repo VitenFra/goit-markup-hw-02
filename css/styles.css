@@ -1,0 +1,222 @@
+:root {
+  --primary-text-color: #212121;
+  --head-text-color: #000000;
+  --subsidiary-color: #2196F3;
+  --primary-white-color: #E5E5E5;
+  --lower-text-color: #757575;
+  --tagline-text-color: #fff;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: roboto, sans-serif;
+  
+}
+
+
+/* логотип */
+.logo {
+  color: var(--head-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logocolor {
+  color: var(--subsidiary-color);
+}
+
+
+/* navigation */
+
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style:none;
+  color: var(--primary-text-color);
+}
+.link{
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus {
+
+  color: var(--subsidiary-color);
+}
+
+
+/* mail,phone */
+
+.connections{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    list-style:none;
+}
+.connect{
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.connect:hover,
+.connect:focus {
+  color: var(--subsidiary-color);
+}
+
+/* banner and button */
+
+.tagline{
+color: var(--tagline-text-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+}
+
+.but_order{
+  color: var(--head-text-color);
+  cursor: pointer;
+
+}
+.but_order:hover,
+.but_order:focus {
+  color: var(--tagline-text-color);
+  background-color: var(--subsidiary-color);
+}
+
+
+
+/* advantages */
+
+.head_advantage {
+    Font-style: 700;
+    Font-size: 14px;
+    Line-height: 1.4;
+    Letter-spacing: 3%;
+    color: var(--primary-text-color);
+}
+
+.advantage {
+    Font-size: 14px;
+    Line-height: 24px;
+    Line-height: 1,46;
+    Letter-spacing: 3%;
+    color: var(--lower-text-color);
+}
+
+
+/* What are we doing */
+.we_doing .our_team_head {
+
+      Font-style: 700;
+      Font-size: 36px;
+      Line-height: 16;
+      Line-height: 100%;
+      Letter-spacing: 3%;
+      color: var(--primary-text-color);
+}
+
+
+/* our team */
+
+.our_team_names {
+Font-style: 500;
+Font-size: 16px;
+Line-height: 1.18;
+Letter-spacing: 3%;
+color: var(--primary-text-color);
+}
+
+.our_team_descrip{
+font-family: 16px;
+Line-height: 1.18;
+letter-spacing: 3%;
+color: var(--lower-text-color);
+}
+
+
+/* basement */
+
+
+.connect_foot {
+  color: var(--contacts-color);
+  text-decoration: none;
+}
+
+.connect_foot:hover,
+.connect_foot:focus {
+  color: var(--subsidiary-color);
+}
+
+.connect_foot_lis {
+  list-style:none;
+}
+
+.addres{
+Font-style: normal;
+Font-size: 14px;
+Line-height: 1.7;
+Letter-spacing: 3%;
+color: var(--tagline-text-color);
+}
+
+.lis{
+  list-style:none;
+}
+
+
+     /* portfolio */
+
+
+     /* list of works */
+
+     .lis_buttons{
+      list-style:none;
+      Font-style:500;
+      Font-size: 16px;
+      Line-height: 1.6;
+      Letter-spacing: 3%;
+      color: var(--primary-text-color);
+     }
+
+.lis_buttons_each{
+  list-style:none;
+  cursor: pointer;
+  }
+
+  .lis_buttons_each:hover,
+  .lis_buttons_each:focus {
+    color: var(--tagline-text-color);
+    background-color: var(--subsidiary-color);
+  }
+
+  /* list of works photo */
+
+  .list_of_wor_names {
+    Font-style:700;
+    Font-size: 18px;
+    Line-height: 2;
+    Letter-spacing: 6%;
+  }
+
+  .list_of_wor_names_descrip {
+      Font-size: 16px;
+      Line-height: 1.8;
+      Letter-spacing: 3%;
+      color: var(--lower-text-color);
+  }
+
+
+
+
+
+
+/* dbbwbwrnw */
