@@ -63,7 +63,7 @@ body {
     list-style:none;
 }
 .connect{
-  color: var(--primary-text-color);
+  color: var(--lower-text-color);
   text-decoration: none;
 }
 .connect:hover,
@@ -82,10 +82,19 @@ letter-spacing: 0.06em;
 }
 
 .but_order{
-  color: var(--head-text-color);
+  color: var(--tagline-text-color);
+  background-color: var(--subsidiary-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
   cursor: pointer;
-
+  width: 200px;
+  height:50px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.15), 0 4px 4px 0 rgba(0,0,0,0.15);
+  border: none;
 }
+
 .but_order:hover,
 .but_order:focus {
   color: var(--tagline-text-color);
@@ -97,30 +106,27 @@ letter-spacing: 0.06em;
 /* advantages */
 
 .head_advantage {
-    Font-style: 700;
-    Font-size: 14px;
-    Line-height: 1.4;
-    Letter-spacing: 3%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
 .advantage {
-    Font-size: 14px;
-    Line-height: 24px;
-    Line-height: 1,46;
-    Letter-spacing: 3%;
+    font-size: 14px;
+    line-height: 1.46;
+    letter-spacing: 0.03em;
     color: var(--lower-text-color);
 }
-
 
 /* What are we doing */
 .we_doing .our_team_head {
 
-      Font-style: 700;
-      Font-size: 36px;
-      Line-height: 16;
-      Line-height: 100%;
-      Letter-spacing: 3%;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 16;
+      letter-spacing: 0.03em;
       color: var(--primary-text-color);
 }
 
@@ -128,17 +134,17 @@ letter-spacing: 0.06em;
 /* our team */
 
 .our_team_names {
-Font-style: 500;
-Font-size: 16px;
-Line-height: 1.18;
-Letter-spacing: 3%;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 
 .our_team_descrip{
-font-family: 16px;
-Line-height: 1.18;
-letter-spacing: 3%;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
 color: var(--lower-text-color);
 }
 
@@ -161,10 +167,10 @@ color: var(--lower-text-color);
 }
 
 .addres{
-Font-style: normal;
-Font-size: 14px;
-Line-height: 1.7;
-Letter-spacing: 3%;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
 color: var(--tagline-text-color);
 }
 
@@ -180,37 +186,141 @@ color: var(--tagline-text-color);
 
      .lis_buttons{
       list-style:none;
-      Font-style:500;
-      Font-size: 16px;
-      Line-height: 1.6;
-      Letter-spacing: 3%;
-      color: var(--primary-text-color);
      }
 
-.lis_buttons_each{
+   .lis_buttons_each{
+    width: 73px;
+    height:38px;
   list-style:none;
   cursor: pointer;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  border: none;
   }
 
   .lis_buttons_each:hover,
   .lis_buttons_each:focus {
     color: var(--tagline-text-color);
     background-color: var(--subsidiary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
   }
+
+  .lis_buttons_each_sites{
+    width: 128px;
+    height:38px;
+    list-style:none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    border: none;
+  }
+
+  .lis_buttons_each_sites:hover,
+  .lis_buttons_each_sites:focus {
+    color: var(--tagline-text-color);
+    background-color: var(--subsidiary-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+  }
+
+      .lis_buttons_each_apps{
+      width: 145px;
+      height:38px;
+      list-style:none;
+      cursor: pointer;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.6;
+      letter-spacing: 0.03em;
+      color: var(--primary-text-color);
+      border: none;
+      }
+
+      .lis_buttons_each_apps:hover,
+      .lis_buttons_each_apps:focus {
+        color: var(--tagline-text-color);
+        background-color: var(--subsidiary-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+      }
+
+      .lis_buttons_each_design{
+        width: 103px;
+        height:38px;
+        list-style:none;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        border: none;
+      }
+
+      .lis_buttons_each_design:hover,
+      .lis_buttons_each_design:focus {
+        color: var(--tagline-text-color);
+        background-color: var(--subsidiary-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+      }
+
+      .lis_buttons_each_market{
+        width: 130px;
+        height:38px;
+        list-style:none;
+        cursor: pointer;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color);
+        border: none;
+      }
+
+      .lis_buttons_each_market:hover,
+      .lis_buttons_each_market:focus {
+        color: var(--tagline-text-color);
+        background-color: var(--subsidiary-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.8;
+        letter-spacing: 0.03em;
+      }
 
   /* list of works photo */
 
   .list_of_wor_names {
-    Font-style:700;
-    Font-size: 18px;
-    Line-height: 2;
-    Letter-spacing: 6%;
+    font-weight:700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
   }
 
   .list_of_wor_names_descrip {
-      Font-size: 16px;
-      Line-height: 1.8;
-      Letter-spacing: 3%;
+      font-size: 16px;
+      line-height: 1.8;
+      letter-spacing: 0.03em;
       color: var(--lower-text-color);
   }
 
