@@ -11,7 +11,7 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   
 }
 
@@ -28,7 +28,9 @@ body {
 .logocolor {
   color: var(--subsidiary-color);
 }
-
+.logocolor_white {
+  color: var(--tagline-text-color);
+}
 
 /* navigation */
 
@@ -186,24 +188,26 @@ color: var(--tagline-text-color);
 
      .lis_buttons{
       list-style:none;
+
      }
 
    .lis_buttons_each{
-    width: 73px;
-    height:38px;
-  list-style:none;
-  cursor: pointer;
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  border: none;
+      font-family: inherit;
+      width: 73px;
+      height: 38px;
+      border-radius: 4px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.6;
+      letter-spacing: 0.03em;
+      color: var(--primary-text-color);
+      border: none;
+      cursor: pointer;
   }
 
   .lis_buttons_each:hover,
   .lis_buttons_each:focus {
+    font-family: inherit;
     color: var(--tagline-text-color);
     background-color: var(--subsidiary-color);
     font-weight: 500;
@@ -213,6 +217,7 @@ color: var(--tagline-text-color);
   }
 
   .lis_buttons_each_sites{
+    font-family: inherit;
     width: 128px;
     height:38px;
     list-style:none;
@@ -228,6 +233,7 @@ color: var(--tagline-text-color);
 
   .lis_buttons_each_sites:hover,
   .lis_buttons_each_sites:focus {
+    font-family: inherit;
     color: var(--tagline-text-color);
     background-color: var(--subsidiary-color);
     font-weight: 500;
@@ -237,6 +243,7 @@ color: var(--tagline-text-color);
   }
 
       .lis_buttons_each_apps{
+      font-family: inherit;
       width: 145px;
       height:38px;
       list-style:none;
@@ -252,6 +259,7 @@ color: var(--tagline-text-color);
 
       .lis_buttons_each_apps:hover,
       .lis_buttons_each_apps:focus {
+        font-family: inherit;
         color: var(--tagline-text-color);
         background-color: var(--subsidiary-color);
         font-weight: 500;
@@ -261,6 +269,7 @@ color: var(--tagline-text-color);
       }
 
       .lis_buttons_each_design{
+        font-family: inherit;
         width: 103px;
         height:38px;
         list-style:none;
@@ -276,6 +285,7 @@ color: var(--tagline-text-color);
 
       .lis_buttons_each_design:hover,
       .lis_buttons_each_design:focus {
+        font-family: inherit;
         color: var(--tagline-text-color);
         background-color: var(--subsidiary-color);
         font-weight: 500;
@@ -285,6 +295,7 @@ color: var(--tagline-text-color);
       }
 
       .lis_buttons_each_market{
+        font-family: inherit;
         width: 130px;
         height:38px;
         list-style:none;
@@ -300,6 +311,7 @@ color: var(--tagline-text-color);
 
       .lis_buttons_each_market:hover,
       .lis_buttons_each_market:focus {
+        font-family: inherit;
         color: var(--tagline-text-color);
         background-color: var(--subsidiary-color);
         font-weight: 500;
